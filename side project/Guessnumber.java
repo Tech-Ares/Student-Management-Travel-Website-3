@@ -1,11 +1,4 @@
-package test;
-
 import java.util.*; 
-/**
- *控制檯猜數字小遊戲，系統自動生成範圍為1-100的數字
- *@version 1.0 2018-01-04
- *@author jie1024(wechat:wxxueba)
- */
 public class GuessX{
 	public static void main(String[] args){
 		Random random = new Random();//建立random
