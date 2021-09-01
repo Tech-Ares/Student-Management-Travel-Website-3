@@ -3,8 +3,8 @@ public class GuessX{
 	public static void main(String[] args){
 		Random random = new Random();//建立random
 		int x = random.nextInt(100)+1;//生成一個1-100之間的隨機數 random.nextInt(100)的範圍為0-99，所以+1，範圍為1-100
-		System.out.println("系統已自動為您生成了一個隨機數（範圍為1-100），遊戲開始！");
-		System.out.print("猜猜這個數字是多少吧：");
+		System.out.println("系統已自動生成了一個隨機數（範圍1-100），現在遊戲開始！");
+		System.out.print("猜猜這個數字是多少~!!：");
 		Scanner in = new Scanner(System.in);//建立scanner
 		int y = in.nextInt(); //輸入數字
 		int count = 1; //次數
